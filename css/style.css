@@ -1,0 +1,64 @@
+*
+{
+	box-sizing: border-box;
+}
+body
+{
+	margin: 0;
+}
+main
+{
+	width: 1200px;
+	margin: auto;
+	padding: 20px 20px;
+	background-color: #FBF47C;
+}
+h1
+{
+	text-align: center;
+	margin-top: 0;
+}
+.sentence
+{
+	padding-left: 50px;
+}
+
+.control
+{
+	width: 500px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+	.control-inputs
+	{
+		width: 40%;
+	}
+		.animals
+		{
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+			.animals-input
+			{
+				height: 20px;
+				width: 50px;
+				text-align: center;
+			}
+	.control-boton
+	{
+		margin-left: 20px;
+	}
+		.boton
+		{
+			height: 30px;
+			padding: 5px 10px;
+		}
+.granjas
+{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+}
